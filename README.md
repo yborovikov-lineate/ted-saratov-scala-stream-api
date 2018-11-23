@@ -24,3 +24,12 @@ From this moment you can publish messages one-by-one to the topic and two APIs (
 ```
 ./kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic IN_1
 ```
+
+# Examples
+Run:
+- TestStreamExample.scala to process data using in-memory data structure (immutable.Stream)
+- SparkStreamExample.scala to process data from IN_1 topic using *Spark Streaming*
+- KafkaStreamExample.scala to process data from IN_1 topic using *Kafka Streams*
+
+
+
